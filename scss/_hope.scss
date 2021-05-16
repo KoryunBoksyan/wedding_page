@@ -1,0 +1,34 @@
+.hope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b46f6f; 
+    padding: 64px 0;   
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    p {
+        margin: 18px 0;
+        font-size: 18px;
+    }
+    .link {
+        text-align: center;
+        
+        a {
+            border-radius: 4px;
+            color: white;
+            padding: 8px 60px;
+            font-size: 18px;
+            background-color: rgb(117, 77, 77);
+            text-decoration: none;
+    
+            &:hover {
+                background-color: #ccc;
+                color: black;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box; }
+
+.header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
+  .header img {
+    max-width: 100%;
+    width: 100%; }
+  .header .info {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; }
+    .header .info h1 {
+      padding: 10px 0;
+      font-size: 64px;
+      font-weight: 400; }
+    .header .info h2 {
+      padding: 10px 0;
+      font-size: 30px;
+      font-weight: 400; }
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+  .menu .menu_links {
+    width: 100%;
+    background-color: white;
+    opacity: 0.75;
+    display: flex;
+    padding: 8px 16px; }
+    .menu .menu_links:hover {
+      opacity: 1; }
+    .menu .menu_links a {
+      width: 25%;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 16px;
+      color: black;
+      font-size: 15px; }
+      .menu .menu_links a:hover {
+        background-color: #ccc; }
+        .menu .menu_links a:hover:last-child {
+          background-color: black;
+          color: white; }
+
+.main_container {
+  background-color: #ffdddd; }
+  .main_container .main {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 64px 16px; }
+    .main_container .main h1 {
+      text-align: center;
+      color: #757575;
+      font-size: 36px;
+      margin: 10px 0; }
+    .main_container .main img {
+      margin: 64px 0;
+      border-radius: 4px;
+      transition: 1s;
+      cursor: pointer; }
+      .main_container .main img:hover {
+        transform: scale(1.1); }
+    .main_container .main .history {
+      margin: 10px 0;
+      line-height: 2;
+      color: #000;
+      font-size: 12px; }
+    .main_container .main .link {
+      text-align: center; }
+      .main_container .main .link a {
+        border-radius: 4px;
+        color: white;
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: black;
+        text-decoration: none; }
+        .main_container .main .link a:hover {
+          background-color: #ccc;
+          color: black; }
+
+.wedding_hall .parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .wedding_hall .parent .child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .wedding_hall .parent .child h2 {
+      padding: 10px 0;
+      font-size: 30px;
+      font-weight: 400; }
+    .wedding_hall .parent .child p {
+      padding: 15px 0;
+      font-size: 15px; }
+
+.hope {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b46f6f;
+  padding: 64px 0; }
+  .hope h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0; }
+  .hope p {
+    margin: 18px 0;
+    font-size: 18px; }
+  .hope .link {
+    text-align: center; }
+    .hope .link a {
+      border-radius: 4px;
+      color: white;
+      padding: 8px 60px;
+      font-size: 18px;
+      background-color: #754d4d;
+      text-decoration: none; }
+      .hope .link a:hover {
+        background-color: #ccc;
+        color: black; }
+
+footer {
+  background-color: black;
+  padding: 16px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px; }
+  footer a {
+    color: white; }
